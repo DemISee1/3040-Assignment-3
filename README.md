@@ -1,4 +1,4 @@
-#Exchange Rate API
+# Exchange Rate API
 
 ## Description
 3040Crypto Exchange Rate API enables users to seamlessly convert between digital currencies like Ethereum or Bitcoin and physical currencies such as USD dollars or yen and, the other way around.
