@@ -6,7 +6,29 @@
 
 ## Endpoints
 
-With parameters
+Crypto to Traditional
+
+```https://currencyconverter.org/api/crypto/ethereum/to/traditional/cad```
+
+Traditional to Crypto
+
+```https://currencyconverter.org/api/traditional/cad/to/crypto/ethereum```
+
+Crypto to Crypto 
+
+```https://currencyconverter.org/api/crypto/ethereum/to/crypto/bitcoin```
+
+Traditional to Traditional
+
+```https://currencyconverter.org/api/traditional/cad/to/traditional/usd```
+
+Traditional to All
+
+```https://currencyconverter.org/api/traditional/cad/to/all```
+
+Crypto to All
+
+```https://currencyconverter.org/api/crypto/ethereum/to/all```
 
 ## Resources
 
