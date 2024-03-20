@@ -10,9 +10,9 @@
 
 - Parameters
 The API endpoint accepts A query Strign parameter.
-    - for the source currency (from),
+    - the the source currency (from),
     - the target (to)currency for conversion,
-    -  the amount to be converted that refers to the source currency.
+    - the amount to be converted that refers to the source currency.
 
 ## Resources
 
