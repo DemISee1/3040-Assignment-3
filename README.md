@@ -6,33 +6,13 @@
 
 ## Endpoints and parameters
 
-The API endpoint accepts parameters for the source currency (from), the target (to)currency for conversion, and the amount to be converted that refers to the source currency.
+- Enpoints
 
-
-
-Crypto to Traditional
-
-```https://currencyconverter.org/api/crypto/ethereum/to/traditional/cad```
-
-Traditional to Crypto
-
-```https://currencyconverter.org/api/traditional/cad/to/crypto/ethereum```
-
-Crypto to Crypto 
-
-```https://currencyconverter.org/api/crypto/ethereum/to/crypto/bitcoin```
-
-Traditional to Traditional
-
-```https://currencyconverter.org/api/traditional/cad/to/traditional/usd```
-
-Traditional to All
-
-```https://currencyconverter.org/api/traditional/cad/to/all```
-
-Crypto to All
-
-```https://currencyconverter.org/api/crypto/ethereum/to/all```
+- Parameters
+The API endpoint accepts A query Strign parameter.
+    - for the source currency (from),
+    - the target (to)currency for conversion,
+    -  the amount to be converted that refers to the source currency.
 
 ## Resources
 
