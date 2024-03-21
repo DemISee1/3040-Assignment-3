@@ -6,9 +6,10 @@
 
 ## Endpoints
 
-This section covers the API endpoints and parameters, essential for currency conversion.
+This section covers the API endpoints and parameters they need.
 
 GET `/v1/convert`
+
 - The API endpoint accepts a query string parameter consisting of:
     - `from` The source currency.
     - `to` The target currency for conversion.
@@ -31,11 +32,12 @@ The response of the API is structured in JSON format, providing a clear and easi
 ```
 
 ## Sample Requests and Responses
+
 GET ```url
     https://api.exchangerates.io/v1/convert?from=GBP&to=JPY&amount=25
     ```
 
-Response:
+- Response:
 
     ```json
     {
