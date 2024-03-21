@@ -6,13 +6,15 @@
 
 ## Endpoints and parameters
 
-- Enpoints
+This section covers the API endpoints and parameters, essential for currency conversion.
 
-- Parameters
-The API endpoint accepts A query Strign parameter.
-    - the the source currency (from),
-    - the target (to)currency for conversion,
-    - the amount to be converted that refers to the source currency.
+- Endpoints
+
+- Parameters:
+    - The API endpoint accepts a query string parameter consisting of:
+    - The source currency (from),
+    - The target currency (to) for conversion,
+    - The amount to be converted, denoted in the source currency.
 
 ## Resources
 
