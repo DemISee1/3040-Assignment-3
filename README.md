@@ -22,7 +22,6 @@ With json
 
 ## Sample Requests and Responses
 - sample request :
-x
 ```url
 https://api.exchangeratesapi.io/v1/convert?from=GBP&to=JPY&amount=25
 ```
