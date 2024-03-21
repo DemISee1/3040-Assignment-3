@@ -10,7 +10,7 @@ This section covers the API endpoints and parameters, essential for currency con
 
 - Endpoints
 
-- Parameters:
+- Parameters
   The API endpoint accepts a query string parameter consisting of:
     - The source currency (from),
     - The target currency (to) for conversion,
