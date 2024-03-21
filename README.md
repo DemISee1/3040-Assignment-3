@@ -9,17 +9,35 @@
 This section covers the API endpoints and parameters, essential for currency conversion.
 
 - Endpoints
-
+  - **Endpoint:** `/v1/convert`
+  - **Method:** `GET`
 - Parameters
   The API endpoint accepts a query string parameter consisting of:
-    - The source currency (from),
-    - The target currency (to) for conversion,
-    - The amount to be converted, denoted in the source currency.
+    - `from` The source currency ,
+    - `to`The target currency for conversion,
+    - `amount` The amount to be converted, denoted in the source currency.
 
 ## Resources
 
-With json
+The response of the API is structured in JSON format, providing a clear and easily interpretable set of data, including the success status, request details, conversion rate, and the conversion result.
 
+
+```json
+{
+    "success": true,
+    "query": {
+        "from": "currency_code",
+        "to": "currency_code",
+        "amount": numeric_value
+    },
+    "info": {
+        "timestamp": unix_timestamp,
+        "rate": conversion_rate
+    },
+    "date": "YYYY-MM-DD",
+    "result": converted_amount
+}
+```
 ## Sample Requests and Responses
 - sample request :
 ```url
