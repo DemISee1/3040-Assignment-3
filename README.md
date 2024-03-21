@@ -11,7 +11,7 @@ This section covers the API endpoints and parameters, essential for currency con
 - Endpoints
 
 - Parameters:
-    - The API endpoint accepts a query string parameter consisting of:
+  The API endpoint accepts a query string parameter consisting of:
     - The source currency (from),
     - The target currency (to) for conversion,
     - The amount to be converted, denoted in the source currency.
@@ -22,7 +22,7 @@ With json
 
 ## Sample Requests and Responses
 - sample request :
-
+x
 ```url
 https://api.exchangeratesapi.io/v1/convert?from=GBP&to=JPY&amount=25
 ```
