@@ -21,11 +21,6 @@ The response of the API is structured in JSON format, providing a clear and easi
 ```json
 {
     "success": true,
-    "query": {
-        "from": "currency_code",
-        "to": "currency_code",
-        "amount": numeric_value
-    },
     "info": {
         "timestamp": unix_timestamp,
         "rate": conversion_rate
@@ -36,21 +31,15 @@ The response of the API is structured in JSON format, providing a clear and easi
 ```
 
 ## Sample Requests and Responses
-- Sample request :
-
-    ```url
+GET ```url
     https://api.exchangerates.io/v1/convert?from=GBP&to=JPY&amount=25
     ```
-- Sample response :
+
+Response:
 
     ```json
     {
         "success": true,
-        "query": {
-            "from": "GBP",
-            "to": "JPY",
-            "amount": 25
-        },
         "info": {
             "timestamp": 1519328414,
             "rate": 148.972231
