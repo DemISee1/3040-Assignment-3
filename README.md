@@ -33,9 +33,7 @@ The response of the API is structured in JSON format, providing a clear and easi
 
 ## Sample Requests and Responses
 
-GET ```url
-    https://api.exchangerates.io/v1/convert?from=GBP&to=JPY&amount=25
-    ```
+GET `https://api.exchangerates.io/v1/convert?from=GBP&to=JPY&amount=25`
 
 - Response:
 
